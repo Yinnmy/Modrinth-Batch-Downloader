@@ -44,7 +44,7 @@ from pathlib import Path
 from i18n import tr
 
 APP_NAME = "Modrinth Batch Downloader"
-APP_VERSION = "5.0.0"
+APP_VERSION = "1.0.0"
 API = "https://api.modrinth.com/v2"
 USER_AGENT = f"ModrinthBatchDownloader/{APP_VERSION} (Windows desktop app)"
 # Troque SEU_USUARIO/SEU_REPO pelo repositório onde você publica as versões (releases do GitHub)

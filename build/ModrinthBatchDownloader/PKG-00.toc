@@ -1,4 +1,5 @@
-('C:\\Users\\tc_ho\\Downloads\\MBD_V5_Modrinth_Batch_Downloader(2)\\Modrinth_Batch_Downloader\\build\\ModrinthBatchDownloader\\ModrinthBatchDownloader.pkg',
+('C:\\Users\\tc_ho\\Downloads\\MBD_V1_1.0.0\\MBD V1\\MBD '
+ 'V1\\build\\ModrinthBatchDownloader\\ModrinthBatchDownloader.pkg',
  {'BINARY': True,
   'DATA': True,
   'EXECUTABLE': True,
@@ -10,22 +11,28 @@
   'SYMLINK': False},
  [('pyi-contents-directory _internal', '', 'OPTION'),
   ('PYZ-00.pyz',
-   'C:\\Users\\tc_ho\\Downloads\\MBD_V5_Modrinth_Batch_Downloader(2)\\Modrinth_Batch_Downloader\\build\\ModrinthBatchDownloader\\PYZ-00.pyz',
+   'C:\\Users\\tc_ho\\Downloads\\MBD_V1_1.0.0\\MBD V1\\MBD '
+   'V1\\build\\ModrinthBatchDownloader\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
-   'C:\\Users\\tc_ho\\Downloads\\MBD_V5_Modrinth_Batch_Downloader(2)\\Modrinth_Batch_Downloader\\build\\ModrinthBatchDownloader\\localpycs\\struct.pyc',
+   'C:\\Users\\tc_ho\\Downloads\\MBD_V1_1.0.0\\MBD V1\\MBD '
+   'V1\\build\\ModrinthBatchDownloader\\localpycs\\struct.pyc',
    'PYMODULE'),
   ('pyimod01_archive',
-   'C:\\Users\\tc_ho\\Downloads\\MBD_V5_Modrinth_Batch_Downloader(2)\\Modrinth_Batch_Downloader\\build\\ModrinthBatchDownloader\\localpycs\\pyimod01_archive.pyc',
+   'C:\\Users\\tc_ho\\Downloads\\MBD_V1_1.0.0\\MBD V1\\MBD '
+   'V1\\build\\ModrinthBatchDownloader\\localpycs\\pyimod01_archive.pyc',
    'PYMODULE'),
   ('pyimod02_importers',
-   'C:\\Users\\tc_ho\\Downloads\\MBD_V5_Modrinth_Batch_Downloader(2)\\Modrinth_Batch_Downloader\\build\\ModrinthBatchDownloader\\localpycs\\pyimod02_importers.pyc',
+   'C:\\Users\\tc_ho\\Downloads\\MBD_V1_1.0.0\\MBD V1\\MBD '
+   'V1\\build\\ModrinthBatchDownloader\\localpycs\\pyimod02_importers.pyc',
    'PYMODULE'),
   ('pyimod03_ctypes',
-   'C:\\Users\\tc_ho\\Downloads\\MBD_V5_Modrinth_Batch_Downloader(2)\\Modrinth_Batch_Downloader\\build\\ModrinthBatchDownloader\\localpycs\\pyimod03_ctypes.pyc',
+   'C:\\Users\\tc_ho\\Downloads\\MBD_V1_1.0.0\\MBD V1\\MBD '
+   'V1\\build\\ModrinthBatchDownloader\\localpycs\\pyimod03_ctypes.pyc',
    'PYMODULE'),
   ('pyimod04_pywin32',
-   'C:\\Users\\tc_ho\\Downloads\\MBD_V5_Modrinth_Batch_Downloader(2)\\Modrinth_Batch_Downloader\\build\\ModrinthBatchDownloader\\localpycs\\pyimod04_pywin32.pyc',
+   'C:\\Users\\tc_ho\\Downloads\\MBD_V1_1.0.0\\MBD V1\\MBD '
+   'V1\\build\\ModrinthBatchDownloader\\localpycs\\pyimod04_pywin32.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
    'C:\\Users\\tc_ho\\AppData\\Local\\Python\\pythoncore-3.15-64\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
@@ -43,7 +50,7 @@
    'C:\\Users\\tc_ho\\AppData\\Local\\Python\\pythoncore-3.15-64\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
   ('app',
-   'C:\\Users\\tc_ho\\Downloads\\MBD_V5_Modrinth_Batch_Downloader(2)\\Modrinth_Batch_Downloader\\app.py',
+   'C:\\Users\\tc_ho\\Downloads\\MBD_V1_1.0.0\\MBD V1\\MBD V1\\app.py',
    'PYSOURCE'),
   ('python315.dll',
    'C:\\Users\\tc_ho\\AppData\\Local\\Python\\pythoncore-3.15-64\\python315.dll',
@@ -142,19 +149,24 @@
    'C:\\Users\\tc_ho\\AppData\\Local\\Python\\pythoncore-3.15-64\\DLLs\\zlib1.dll',
    'BINARY'),
   ('assets\\LEIA-ME_ASSETS.txt',
-   'C:\\Users\\tc_ho\\Downloads\\MBD_V5_Modrinth_Batch_Downloader(2)\\Modrinth_Batch_Downloader\\assets\\LEIA-ME_ASSETS.txt',
+   'C:\\Users\\tc_ho\\Downloads\\MBD_V1_1.0.0\\MBD V1\\MBD '
+   'V1\\assets\\LEIA-ME_ASSETS.txt',
    'DATA'),
   ('assets\\icon.ico',
-   'C:\\Users\\tc_ho\\Downloads\\MBD_V5_Modrinth_Batch_Downloader(2)\\Modrinth_Batch_Downloader\\assets\\icon.ico',
+   'C:\\Users\\tc_ho\\Downloads\\MBD_V1_1.0.0\\MBD V1\\MBD '
+   'V1\\assets\\icon.ico',
    'DATA'),
   ('assets\\icon.png',
-   'C:\\Users\\tc_ho\\Downloads\\MBD_V5_Modrinth_Batch_Downloader(2)\\Modrinth_Batch_Downloader\\assets\\icon.png',
+   'C:\\Users\\tc_ho\\Downloads\\MBD_V1_1.0.0\\MBD V1\\MBD '
+   'V1\\assets\\icon.png',
    'DATA'),
   ('assets\\legacy\\icon_pixel_v4.png',
-   'C:\\Users\\tc_ho\\Downloads\\MBD_V5_Modrinth_Batch_Downloader(2)\\Modrinth_Batch_Downloader\\assets\\legacy\\icon_pixel_v4.png',
+   'C:\\Users\\tc_ho\\Downloads\\MBD_V1_1.0.0\\MBD V1\\MBD '
+   'V1\\assets\\legacy\\icon_pixel_v4.png',
    'DATA'),
   ('assets\\mascot.png',
-   'C:\\Users\\tc_ho\\Downloads\\MBD_V5_Modrinth_Batch_Downloader(2)\\Modrinth_Batch_Downloader\\assets\\mascot.png',
+   'C:\\Users\\tc_ho\\Downloads\\MBD_V1_1.0.0\\MBD V1\\MBD '
+   'V1\\assets\\mascot.png',
    'DATA'),
   ('certifi\\cacert.pem',
    'C:\\Users\\tc_ho\\AppData\\Roaming\\Python\\Python315\\site-packages\\certifi\\cacert.pem',
@@ -163,7 +175,8 @@
    'C:\\Users\\tc_ho\\AppData\\Roaming\\Python\\Python315\\site-packages\\certifi\\py.typed',
    'DATA'),
   ('base_library.zip',
-   'C:\\Users\\tc_ho\\Downloads\\MBD_V5_Modrinth_Batch_Downloader(2)\\Modrinth_Batch_Downloader\\build\\ModrinthBatchDownloader\\base_library.zip',
+   'C:\\Users\\tc_ho\\Downloads\\MBD_V1_1.0.0\\MBD V1\\MBD '
+   'V1\\build\\ModrinthBatchDownloader\\base_library.zip',
    'DATA')],
  'python315.dll',
  False,
