@@ -1,6 +1,6 @@
 # Modrinth Batch Downloader
 
-Modrinth Batch Downloader (MBD) is a Windows desktop application for downloading Minecraft mods and their dependencies from Modrinth automatically. Instead of opening and downloading projects one by one, you can paste multiple Modrinth links, choose the target Minecraft version and mod loader, and let the app handle the rest.
+Modrinth Batch Downloader (MBD) is a Windows desktop application for downloading Minecraft mods and their dependencies from Modrinth automatically. Instead of opening and downloading projects one by one, you can paste multiple Modrinth links, choose the target Minecraft version and mod loader, and let the app handle the rest. AI generated-text and assisted in the creation of this program.
 
 MBD helps you:
 - batch download mods and dependencies
