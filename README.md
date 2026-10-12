@@ -152,7 +152,7 @@ Additional features include:
 
 ### Using the Windows executable
 
-Download the published executable, such as `ModrinthBatchDownloader.exe`, and open it on Windows.
+Download the published executable, such as `MBD.exe`, and open it on Windows.
 
 > Windows and antivirus software may display warnings for executables downloaded from the internet. These warnings alone do not prove a file is malicious or safe. Only download from sources you trust. You can use Virus Total Scan if you're that scared.
 
@@ -199,7 +199,7 @@ Builds must be performed on Windows:
 - Install Python 3.10 or newer.
 - Open the project folder.
 - Run `build_exe.bat`.
-- After a successful build, the executable will be created at `dist/ModrinthBatchDownloader.exe`.
+- After a successful build, the executable will be created at `dist/MBD.exe`.
 
 The script installs the required dependencies and uses PyInstaller with the `--onefile` option, including resources from `assets/`. If you customized the icon in the application, the script may use a custom icon file from `assets/` during the build.
 
