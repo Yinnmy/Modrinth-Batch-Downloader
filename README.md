@@ -152,9 +152,35 @@ Additional features include:
 
 ### Using the Windows executable
 
-If the project is distributed through this repository’s Releases section, download the published executable, such as `ModrinthBatchDownloader.exe`, and open it on Windows.
+Download the published executable, such as `ModrinthBatchDownloader.exe`, and open it on Windows.
 
-> Windows and antivirus software may display warnings for executables downloaded from the internet. These warnings alone do not prove a file is malicious or safe. Only download from sources you trust.
+> Windows and antivirus software may display warnings for executables downloaded from the internet. These warnings alone do not prove a file is malicious or safe. Only download from sources you trust. You can use Virus Total Scan if you're that scared.
+
+### Virus Total Scans
+Screenshots: 
+<img width="1919" height="941" alt="image" src="https://github.com/user-attachments/assets/9256cf4d-bc7d-43a5-98f8-5341131a4540" />
+
+<img width="1919" height="937" alt="image" src="https://github.com/user-attachments/assets/7b5a63d9-7f0f-4a72-baf6-6a2f2726b4d0" />
+
+## About the VirusTotal scans shown in the release screenshots
+
+You may see VirusTotal results like "8/63" for the EXE and "5/57" for the ZIP in the screenshots included with this release. That means 8 out of 63 antivirus engines flagged the EXE and 5 out of 57 flagged the ZIP. These counts are an aggregate of different vendors' engines and labels — they are not a definitive proof of malware.
+
+Why this can happen even when the source code is clean
+- Packaging and heuristics: The Windows executable is produced with PyInstaller / a one-file build, and the PyInstaller bundle (and similar packers) often looks unusual to heuristic engines. In our build spec we enable UPX/compression (upx=True), which also commonly triggers heuristic alerts.
+- Unsigned binaries: Releases that are not code-signed are more likely to be treated cautiously by some engines.
+- Generic detection names: Many detections you see in the scan (names like "TR/W64.Malware", "W32.Malware", "Trojan", or "suspicious PE") are generic heuristic labels rather than precise forensic classifications.
+- Archive scanning differences: A ZIP may show fewer flags because some engines only scan inside an archive in a second stage or treat packed archives differently.
+- False positives are common for new, packaged, or uncommon binaries — especially ones produced by bundlers and one-file runners.
+
+How we check and what we do when a detection appears
+- We validate the release file hash (SHA256) and publish it so anyone can verify the downloaded file.
+- We compare the published binary to a local build from the repository to make sure they match.
+- We test the executable in an isolated environment (VM) and run a behaviour check.
+- For likely false positives, we report the file to the antivirus vendors and document the outcome on the release page.
+
+If you are concerned, you can verify the file yourself (short steps follow).
+
 
 ### Running from source
 
@@ -199,3 +225,11 @@ MBD/
 ├── run.bat             # Run from source
 ├── build_exe.bat       # Build the executable
 └── README.md           # Project documentation
+
+```
+## License  
+
+This project is currently distributed as open source for personal and community use.
+
+# Contributing
+Contributions, bug reports, issues, and feature suggestions are welcome. If you find a bug or want to request a feature, please open an issue in the repository.
