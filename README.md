@@ -38,7 +38,7 @@ This makes it easier to keep mod folders organized, updated, and compatible with
 The script installs dependencies from `requirements.txt` and launches the application.
 
 ### Use the Windows executable
-If a release build is available in this repository, download the packaged executable (for example, `ModrinthBatchDownloader.exe`) and launch it on Windows.
+Just... execute it.
 
 > Windows and antivirus software may show warnings for executables downloaded from the internet. These warnings alone do not prove that a file is malicious or safe. Only download software from trusted sources.
 
