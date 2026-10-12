@@ -146,7 +146,7 @@ Additional features include:
 - Configure the download folder and the mod analysis folder separately.
 - Choose a custom image for the window icon. To embed that icon into the executable, the application must be rebuilt.
 - Minecraft version list is retrieved through the API, with an option to refresh it manually.
-- Optional checks for new MBD versions, configured through a GitHub releases URL or a JSON URL containing the version and download link. This check stays inactive until a valid URL is configured.
+- Optional checks for new MBD version.
 
 ## Downloading and running
 
