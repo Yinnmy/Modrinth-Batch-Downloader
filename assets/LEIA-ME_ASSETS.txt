@@ -1,0 +1,11 @@
+ARQUIVOS DE IMAGEM DO APP
+=========================
+mascot.png       Mascote (corvo + maçã verde). Aparece na sidebar. Para trocar a arte, substitua este arquivo
+                 (PNG quadrado com fundo transparente, 512x512 recomendado). Se o arquivo não existir,
+                 o app desenha um placeholder (quadrado colorido com seta de download).
+icon.png / .ico  Ícone da janela e do .exe (o .ico deve ter 16–256 px).
+custom_icon.*    Criado pelo app em Configurações > Ícone do aplicativo. Tem prioridade sobre icon.*.
+                 build_exe.bat usa custom_icon.ico no .exe se ele existir. Apague para voltar ao padrão.
+legacy/          Ícone pixel-art da V4, guardado só como referência.
+
+Para regenerar a arte padrão:  python tools/make_mascot.py   (precisa do Pillow)
