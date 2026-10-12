@@ -19,11 +19,11 @@ The Modrinth Batch Downloader is a desktop tool designed to simplify Minecraft m
 
 In addition to downloading multiple projects at once, MBD can:
 - scan existing .jar files on your computer
-#- please not that this only scans the minecraft .mods folder, nothing else.
+`please not that this only scans the minecraft .mods folder, nothing else.`
 - detect missing dependencies and conflicts and download them automatically.
 - look for updates to installed mods
 - find compatible versions for another Minecraft version and loader
-#- if it doesn't find any, it won't install that mod or dependency.
+`if it doesn't find any, it won't install that mod or dependency.`
 
 This makes it easier to keep mod folders organized, updated, and compatible with a specific Minecraft setup.
 
