@@ -9,7 +9,7 @@ MBD helps you:
 - check for updates to installed mods
 - review logs, reports, and download history
 
-Code version: 5.0.0  
+Code version: 1.0.0  
 Platform: Windows desktop application  
 Languages: English and Portuguese
 
